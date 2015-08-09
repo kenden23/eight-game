@@ -1,0 +1,24 @@
+﻿Build started 2015/7/28 星期二 PM 9:48:00.
+     1>Project "D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\eight.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\audio\include" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\external" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\external\chipmunk\include\chipmunk" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\extensions" /I..\Classes /I.. /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\editor-support" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\platform" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\2d\..\..\cocos\platform\desktop" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\cocos\2d\..\..\external\freetype2\include\win32\\" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp
+         AppDelegate.cpp
+       PreLinkEvent:
+         if not exist "D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\" mkdir "D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\Cocos2d-x\cocos\cocos_framework\frameworks\cocos2d-x-3.6\prebuilt\win32\*.*" "D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\"
+         xcopy "D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\..\Resources" "D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\" /D /E /I /F /Y
+         
+         :VCEnd
+         复制了 53 个文件
+         复制了 0 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\eight.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\\" /LIBPATH:"D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib libchipmunk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\eight.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\eight.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         eight.vcxproj -> D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\Debug.win32\eight.exe
+     1>Done Building Project "D:\Cocos2d-x\cocos_projects\eight\eight\proj.win32\eight.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.68
